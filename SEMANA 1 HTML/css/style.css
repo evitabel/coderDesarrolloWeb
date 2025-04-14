@@ -1,0 +1,206 @@
+/* beige: #e7dfc6
+gris: #626868
+verde: #273c2c */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Schibsted Grotesk", sans-serif;
+}
+header {
+    background-color: #e7dfc6;
+}
+header h1{
+    text-align: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 750;
+    font-size: 3em;
+}
+.titulos {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tituloIzquierda {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+.tituloDerecha {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+header div{
+    text-align: center;
+}
+header div img{
+    width:20%;
+    text-align: center;
+    border: 0.5px solid #000000;
+    border-radius: 50%;
+}
+.menu{
+    margin: 8px;
+}
+.menu ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.menu ul li{
+    flex: 1;
+    font-size:large
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr 2fr 0.5fr 2fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    }
+
+    .informativo { grid-area: 1 / 1 / 2 / 4;
+    }
+    aside {
+        display: flex;
+    }
+    .imagen1 {
+        grid-area: 2 / 1 / 3 / 2;
+        width: 50%;
+        margin: 5px;
+        }
+        .imagen1 img {
+            width: 398px;
+        }
+    .imagen2 {
+        grid-area: 2 / 2 / 3 / 3;
+        width: 50%;
+        margin: 5px ;
+    }
+    .imagen2 img {
+        width: 398px;
+    }
+    .imagen3 {
+        grid-area: 2 / 3 / 3 / 4;
+        width: 50%;
+        margin: 5px;
+    }
+    .imagen3 img {
+        width: 398px;
+    }
+    .imgMaps { grid-area: 3 / 1 / 4 / 3; }
+    .botonMaps { grid-area: 4 / 2 / 5 / 3; }
+    .cercanias { grid-area: 5 / 1 / 6 / 3; }
+
+/* .informativo {
+    margin: 16px;
+    width: 80%;
+}
+main section img{
+    width: 300px;
+}
+.mapa{
+    margin: 16px;
+    text-align: center;
+}
+.mapa img {
+    width: 450px;
+}
+.comoLlegar {
+    text-align: center;
+}
+.comoLlegar button{
+    font-size: x-large;
+    width: 200px;
+    height: 50px;
+    background-color: #273c2c;
+}
+.comoLlegar button a {
+    text-decoration: none;
+    color:#000000;
+}
+.cercanias {
+    margin: 16px;
+    padding: 16px;
+    border: #000000 solid 2px;
+    background-color: #626868;
+    width: 500px;
+    align-items: center;
+    align-content: flex-start;
+}
+.cercanias h2{
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.cercanias ul li {
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+} */
+/* sección servicios */
+
+.habitacion h2{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #273c2c;
+    border: 1px solid #000000;
+}
+.baño h2 {
+    text-align: center;
+    margin-top: 80px;
+    background-color: #273c2c;
+    border: 1px solid #000000;
+}
+.patio h2 {
+    text-align: center;
+    margin-top: 80px;
+    background-color: #273c2c;
+    border: 1px solid #000000;
+}
+.habitacion img {
+    width: 40%;
+}
+.baño img {
+    width: 40%;
+}
+.patio img {
+    width: 35%;
+    height: 450px;
+}
+footer {
+    text-align: center;
+}
+footer button {
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+    background-color: #273c2c;
+}
+/* sección contacto */
+.contacto {
+    background-color: #626868;
+}
+.whatsapp{
+    text-align: center;
+}
+.llamada {
+    text-align: center;
+}
+.whatsapp button {
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+}
+.llamada button {
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+}
