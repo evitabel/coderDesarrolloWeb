@@ -97,56 +97,6 @@ header div img{
     .botonMaps { grid-area: 4 / 2 / 5 / 3; }
     .cercanias { grid-area: 5 / 1 / 6 / 3; }
 
-/* .informativo {
-    margin: 16px;
-    width: 80%;
-}
-main section img{
-    width: 300px;
-}
-.mapa{
-    margin: 16px;
-    text-align: center;
-}
-.mapa img {
-    width: 450px;
-}
-.comoLlegar {
-    text-align: center;
-}
-.comoLlegar button{
-    font-size: x-large;
-    width: 200px;
-    height: 50px;
-    background-color: #273c2c;
-}
-.comoLlegar button a {
-    text-decoration: none;
-    color:#000000;
-}
-.cercanias {
-    margin: 16px;
-    padding: 16px;
-    border: #000000 solid 2px;
-    background-color: #626868;
-    width: 500px;
-    align-items: center;
-    align-content: flex-start;
-}
-.cercanias h2{
-    margin: 8px;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-}
-.cercanias ul li {
-    margin: 8px;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-} */
-/* sección servicios */
-
 .habitacion h2{
     text-align: center;
     margin-top: 80px;
@@ -203,4 +153,53 @@ footer button {
     width: 200px;
     height: 50px;
     font-size: x-large;
+}
+/* version Tablet*/
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+    }
+    aside {
+        flex-direction: column;
+    }
+    .patio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .habitacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .baño {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+
+/* version Mobile*/
+@media (max-width: 480px) {
+    .menu ul {
+        flex-direction: column;
+}
+aside {
+    flex-direction: column;
+}
+.patio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habitacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baño {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
