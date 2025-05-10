@@ -1,0 +1,43 @@
+body {
+  font-family: "Schibsted Grotesk", sans-serif;
+  border-color: #e7dfc6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #e7dfc6;
+}
+header h1 {
+  text-align: center;
+  font-weight: 750;
+  font-size: 3em;
+}
+header .titulos {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .tituloIzquierda {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+header .tituloDerecha {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+header div {
+  text-align: center;
+}
+header div img {
+  width: 20%;
+  text-align: center;
+  border: 0.5px solid #000000;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
