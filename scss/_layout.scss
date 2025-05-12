@@ -28,4 +28,12 @@ header {
             border-radius: 50%;
         }
     }
+    nav {
+        margin-top: 1rem;
+    }
+    li {
+        &:hover {
+            color: white;
+        }
+    }
 }

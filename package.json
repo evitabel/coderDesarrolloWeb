@@ -1,0 +1,24 @@
+{
+  "name": "coder-desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evitabel/coderDesarrolloWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evitabel/coderDesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/evitabel/coderDesarrolloWeb#readme",
+  "devDependencies": {
+    "sass": "^1.88.0"
+  }
+}
