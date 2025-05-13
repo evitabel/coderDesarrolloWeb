@@ -1,6 +1,7 @@
 @mixin flex-center {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 @mixin button-style ($background-color) {
     background-color: $background-color ;
